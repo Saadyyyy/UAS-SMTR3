@@ -138,16 +138,16 @@ function minum(){
    console.log("=========================")
    console.log("LIST DAFTAR MENU MINUMAN")
    console.log("=========================")
-    console.log("1.Teh Manis")
-    console.log("2.Cappucino")
-    console.log("3.Air Hangat")
-    console.log("4.Teh Tarik")
-    console.log("5.Jus Mangga")
-    console.log("6.Susu Panas")
-    console.log("7.Kopi O")
-    console.log("8.Kopi Susu")
-    console.log("9.Lemon Tea")
-    console.log("10.Jus Orange")
+    console.log("1.Teh Manis : Rp.5,000")
+    console.log("2.Cappucino : Rp.10,000")
+    console.log("3.Air Hangat : Rp.2,000")
+    console.log("4.Teh Tarik : Rp.10,000")
+    console.log("5.Jus Mangga : Rp.15,000")
+    console.log("6.Susu Panas : Rp.7,000")
+    console.log("7.Kopi O : Rp.8,000")
+    console.log("8.Kopi Susu : Rp.8,000")
+    console.log("9.Lemon Tea : Rp.9,000")
+    console.log("10.Jus Orange : Rp.15,000")
 
     let inputMinum = readlineSync.question("Silahkan Pilih Minum : ")
     
@@ -165,36 +165,52 @@ function minum(){
             console.log("===========")
             tampungHarga += 10000
             break
-         case "3": 
+         case "3":
+            console.log("===========")
             console.log("Air Hangat")
+            console.log("===========")
             tampungHarga += 2000
             break
-         case "4": 
+         case "4":
+            console.log("===========")
             console.log("Teh Tarik")
+            console.log("===========")
             tampungHarga += 10000
             break
-         case "5": 
+        case "5":
+            console.log("===========")
             console.log("Jus Mangga")
+            console.log("===========")
             tampungHarga += 15000
             break
-         case "6": 
+         case "6":
+            console.log("===========")
             console.log("Susu Panas")
+            console.log("===========")
             tampungHarga += 7000
             break
-         case "7": 
+         case "7":
+            console.log("===========")
             console.log("Kopi O")
+            console.log("===========")
             tampungHarga += 8000
             break
-         case "8": 
+         case "8":
+            console.log("===========")
             console.log("Kopi Susu")
+            console.log("===========")
             tampungHarga += 8000
             break
-         case "9": 
+         case "9":
+            console.log("===========")
             console.log("Lemon Tea")
+            console.log("===========")
             tampungHarga += 9000
             break
-         case "10": 
+         case "10":
+            console.log("===========")
             console.log("Jus Orange")
+            console.log("===========")
             tampungHarga += 15000
             break
          default:
